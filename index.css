@@ -1,0 +1,68 @@
+*{
+    font-size:20px;
+    padding:0;
+    border:0;
+    outline:0;
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing:border-box;
+}
+
+body{
+    background:linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)),url("background.jpg");
+    background-position:right;
+    background-size:cover;
+    height:100vh;
+    width:100%;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition:0.1s ease;
+}
+
+section{
+    background:linear-gradient(120deg, rgb(106, 230, 112), rgb(178, 178, 247));
+    padding:40px 70px;
+    border:10px solid blueviolet;
+    border-radius:20px;
+    text-align:center;
+    width:40em;
+    height:auto;
+}
+
+h1{
+    text-align:left;
+    font-size:1.5rem;
+    font-weight:lighter;
+    margin:10px;
+}
+
+ p{
+    text-align:right;
+    font-weight:lighter;
+    font-size:0.7rem;
+    margin:10px;
+}
+
+ button{
+    margin:10px;
+    text-decoration:none;
+    background:transparent;
+    border:1px solid black;
+    border-radius:20px;
+    transition:0.5s ease;
+    padding:15px 40px;
+}
+
+section button:hover{
+    background:white;
+}
+
+.quotesnow{
+    display:none;
+}
+
+.quotesnow.active{
+    display:block;
+}
